@@ -1,5 +1,5 @@
 {
-  "name": "native-calendar",
+  "name": "native-calendar-api",
   "version": "0.0.1",
   "description": "A javascript wrapper with a promise api for using the cordova native calendar plugin",
   "main": "calendar.js",
