@@ -9,6 +9,35 @@ error checking that doesn't exist in the current plugin.
 npm install --save native-calendar-api
 ```
 
+#Example use:
+
+The original api was callbacks and you couldn't call a operation before the last
+operation had finished.  This made handling an large array of events difficult
+to manages. Using this api you can now do something like:
+
+```
+import CalendarApi from 'native-calendar-api';
+import YourLogger from 'some-lib';
+
+CalendarApi.setup('MyApp-', 'Custom Error Prefix:');
+
+function sampleCreateFromArray(events) {
+  return events.reduce((curr, next) => {
+    return curr.then(() => {
+      return this.newEvent(next);
+    });
+  }, P.resolve());
+}
+
+sampleCreateFromArray(eventArray)
+  .then(() => {
+    // execute some cleanup of the events after they have been added
+  })
+  .catch((err) => {
+    YourLogger.log(err);
+  });
+```
+
 #Class NativeCalendar
 
 ##Properties
