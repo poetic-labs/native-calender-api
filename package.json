@@ -1,0 +1,11 @@
+{
+  "name": "native-calendar",
+  "version": "0.0.1",
+  "description": "A javascript wrapper with a promise api for using the cordova native calendar plugin",
+  "main": "calendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Rodney, Poetic Systems",
+  "license": "MIT"
+}
