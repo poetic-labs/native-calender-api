@@ -11,9 +11,9 @@ npm install --save native-calendar-api
 
 #Example use:
 
-The original api was callbacks and you couldn't call a operation before the last
-operation had finished.  This made handling an large array of events difficult
-to manages. Using this api you can now do something like:
+The original api was callbacks and you couldn't call an operation before the last
+operation had finished.  This made handling a large array of events difficult
+to manage. Using this api you can now do something like:
 
 ```
 import CalendarApi from 'native-calendar-api';
