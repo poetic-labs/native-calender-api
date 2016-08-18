@@ -70,7 +70,7 @@ object with all the errors.  You can then log this output to your production
 logger such as:
 
 ```
-import CalendarApi from 'native-calendar';
+import CalendarApi from 'native-calendar-api';
 import YourLogger from 'some-lib';
 
 CalendarApi.setup('MyApp-', 'Custom Error Prefix:');
@@ -93,7 +93,7 @@ object with all the errors.  You can then log this output to your production
 logger such as:
 
 ```
-import CalendarApi from 'native-calendar';
+import CalendarApi from 'native-calendar-api';
 import YourLogger from 'some-lib';
 
 CalendarApi.setup('MyApp-', 'Custom Error Prefix:');
