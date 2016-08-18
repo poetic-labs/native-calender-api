@@ -24,7 +24,7 @@ CalendarApi.setup('MyApp-', 'Custom Error Prefix:');
 function sampleCreateFromArray(events) {
   return events.reduce((curr, next) => {
     return curr.then(() => {
-      return this.newEvent(next);
+      return CalendarApi.newEvent(next);
     });
   }, P.resolve());
 }
