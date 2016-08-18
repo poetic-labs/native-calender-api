@@ -4,6 +4,11 @@ A promise wrapper for [Cordova Calendar Plugin](https://github.com/EddyVerbrugge
 Overall goal is to add an easier workflow to the calendar plugin and add some
 error checking that doesn't exist in the current plugin.
 
+#Install
+```
+npm install --save native-calendar-api
+```
+
 #Class NativeCalendar
 
 ##Properties
