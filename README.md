@@ -15,7 +15,7 @@ The original api was callbacks and you couldn't call an operation before the las
 operation had finished.  This made handling a large array of events difficult
 to manage. Using this api you can now do something like:
 
-```
+```javascript
 import CalendarApi from 'native-calendar-api';
 import YourLogger from 'some-lib';
 
@@ -98,7 +98,7 @@ In the case that the event is invalid this will be rejected and return an error
 object with all the errors.  You can then log this output to your production
 logger such as:
 
-```
+```javascript
 import CalendarApi from 'native-calendar-api';
 import YourLogger from 'some-lib';
 
@@ -121,7 +121,7 @@ In the case that the event is invalid this will be rejected and return an error
 object with all the errors.  You can then log this output to your production
 logger such as:
 
-```
+```javascript
 import CalendarApi from 'native-calendar-api';
 import YourLogger from 'some-lib';
 
