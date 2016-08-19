@@ -8,8 +8,8 @@ class NativeCalendar {
     } else {
       console.warn('this package is dependant on the calendar plugin please call setup After it has loaded');
     }
-    this.errorPrefix = 'Native Calendar Error:'
-    this.titlePrefix = 'FPN-';
+    this.errorPrefix = errorPrefix;
+    this.titlePrefix = titlePrefix;
     this.errors = '';
   }
 
