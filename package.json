@@ -1,10 +1,14 @@
 {
   "name": "native-calendar-api",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "A javascript wrapper with a promise api for using the cordova native calendar plugin",
   "main": "calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/poetic-labs/native-calender-api"
   },
   "author": "John Rodney, Poetic Systems",
   "license": "MIT",
