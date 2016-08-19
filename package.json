@@ -1,6 +1,6 @@
 {
   "name": "native-calendar-api",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A javascript wrapper with a promise api for using the cordova native calendar plugin",
   "main": "calendar.js",
   "scripts": {
